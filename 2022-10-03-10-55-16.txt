@@ -1,0 +1,170 @@
+error detected: 001471
+Version: 0.21j @Win
+Microsoft Windows NT 10.0.19042.0
+// ======================
+SCENE TITLE AWAKEN 
+Load Event Lang: zh-cn
+オプションの読み込みを開始
+オプションの読み込みを開始
+Noel ポーズ数: 252 / 服ビリポーズ数:129/ イメージ数: 0
+title scene disposed
+Load Event Lang: zh-cn
+SCENE GAME AWAKEN
+EV::start - __INITG line:0
+EV::end - __INITG
+<<Read SVD SVD From: 0
+Load Event Lang: zh-cn
+EV::start - __INITG line:0
+EV::end - __INITG
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_wood_hall
+assign: Noel
+assign: ExitL_shelter
+assign: ExitT_cross
+assign: ExitB_acid_lake
+// ======================
+NullReferenceException: Object reference not set to an instance of an object
+nel.M2PrSkill.runPunchCheck (System.Single TS) (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.M2PrSkill.changeState (nel.PR+STATE prestate, nel.PR+STATE state) (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.PR.changeState (nel.PR+STATE _state) (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.PR.appear (m2d.Map2d _Mp) (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.Map2d.assignMover (m2d.M2Mover Mov, System.Boolean set_parent_gameobject) (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+m2d.M2DBase.EvacuateCoreMover (System.Collections.Generic.List`1[T] AEvacuated) (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.NelM2DBase.changeMap (m2d.Map2d M) (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.M2DBase.loadMapAsyncFinalize (m2d.Map2d Mp_Next) (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.NelM2DBase.loadMapAsyncFinalize (m2d.Map2d Mp_Next) (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.M2DBase.loadMapAsync () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.SceneGame.Update () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+
+Error Closure: 
+// ======================
+NullReferenceException: Object reference not set to an instance of an object
+nel.UIStatus.MHBarInit () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.UIStatus.fineLoad () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.SceneGame.Update () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+
+Error Closure: 
+// ======================
+assign: Layer_Supply_apple
+assign: bench__Breakable__obj/bench.png__32.58929_32.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_wood_hall  
+// ======================
+NullReferenceException: Object reference not set to an instance of an object
+nel.NelPlayerCursor.run () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.M2PrSkill.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.PR.refineMoveKey () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.M2MoverPr.runPre () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.PR.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.Map2d.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+m2d.M2DBase.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.NelM2DBase.run () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.SceneGame.Update () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+
+Error Closure: MapMain => TS running => Mv runPre -  => Noel
+// ======================
+NullReferenceException: Object reference not set to an instance of an object
+nel.M2PrSkill.runPunchCheck (System.Single TS) (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.M2PrSkill.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.PR.refineMoveKey () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.M2MoverPr.runPre () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.PR.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.Map2d.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+m2d.M2DBase.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.NelM2DBase.run () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.SceneGame.Update () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+
+Error Closure: MapMain => TS running => Mv runPre -  => Noel => Punch
+// ======================
+NullReferenceException: Object reference not set to an instance of an object
+nel.NelPlayerCursor.run () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.M2PrSkill.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.PR.refineMoveKey () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.M2MoverPr.runPre () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.PR.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.Map2d.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+m2d.M2DBase.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.NelM2DBase.run () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.SceneGame.Update () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+
+Error Closure: MapMain => TS running => Mv runPre -  => Noel
+// ======================
+NullReferenceException: Object reference not set to an instance of an object
+nel.M2PrSkill.runPunchCheck (System.Single TS) (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.M2PrSkill.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.PR.refineMoveKey () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.M2MoverPr.runPre () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.PR.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.Map2d.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+m2d.M2DBase.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.NelM2DBase.run () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.SceneGame.Update () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+
+Error Closure: MapMain => TS running => Mv runPre -  => Noel => Punch
+// ======================
+NullReferenceException: Object reference not set to an instance of an object
+nel.NelPlayerCursor.run () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.M2PrSkill.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.PR.refineMoveKey () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.M2MoverPr.runPre () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.PR.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.Map2d.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+m2d.M2DBase.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.NelM2DBase.run () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.SceneGame.Update () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+
+Error Closure: MapMain => TS running => Mv runPre -  => Noel
+// ======================
+NullReferenceException: Object reference not set to an instance of an object
+nel.M2PrSkill.runPunchCheck (System.Single TS) (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.M2PrSkill.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.PR.refineMoveKey () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.M2MoverPr.runPre () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.PR.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.Map2d.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+m2d.M2DBase.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.NelM2DBase.run () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.SceneGame.Update () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+
+Error Closure: MapMain => TS running => Mv runPre -  => Noel => Punch
+// ======================
+NullReferenceException: Object reference not set to an instance of an object
+nel.NelPlayerCursor.run () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.M2PrSkill.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.PR.refineMoveKey () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.M2MoverPr.runPre () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.PR.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.Map2d.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+m2d.M2DBase.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.NelM2DBase.run () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.SceneGame.Update () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+
+Error Closure: MapMain => TS running => Mv runPre -  => Noel
+// ======================
+NullReferenceException: Object reference not set to an instance of an object
+nel.M2PrSkill.runPunchCheck (System.Single TS) (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.M2PrSkill.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.PR.refineMoveKey () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.M2MoverPr.runPre () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.PR.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.Map2d.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+m2d.M2DBase.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.NelM2DBase.run () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.SceneGame.Update () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+
+Error Closure: MapMain => TS running => Mv runPre -  => Noel => Punch
+// ======================
+NullReferenceException: Object reference not set to an instance of an object
+nel.NelPlayerCursor.run () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.M2PrSkill.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.PR.refineMoveKey () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.M2MoverPr.runPre () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.PR.runPre () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+m2d.Map2d.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+m2d.M2DBase.run () (at <b730d5bdb32c4f688e16089cad71c5f1>:0)
+nel.NelM2DBase.run () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+nel.SceneGame.Update () (at <f438ccc8b1ec4e55900f083f43f6fd78>:0)
+
+Error Closure: MapMain => TS running => Mv runPre -  => Noel
+// ======================

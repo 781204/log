@@ -1,0 +1,157 @@
+error detected: 000001
+Version: 0.21j @Win
+Microsoft Windows NT 10.0.19042.0
+// ======================
+SCENE TITLE AWAKEN 
+Load Event Lang: zh-cn
+オプションの読み込みを開始
+オプションの読み込みを開始
+Noel ポーズ数: 252 / 服ビリポーズ数:129/ イメージ数: 0
+title scene disposed
+SCENE GAME AWAKEN
+EV::start - __INITG line:0
+EV::end - __INITG
+<<Read SVD SVD From: 0
+Load Event Lang: zh-cn
+EV::start - __INITG line:0
+EV::end - __INITG
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_lava_coming
+assign: Noel
+assign: magic_killer_pmng_PuzzBarrier_1
+assign: ExitR_paprika
+assign: ExitL_dokudoku
+assign: CM-Layer_Carrier_1
+CR:1
+assign: ExitR_lava_secret
+assign: obj__puzzle/switch_once_0.png__22.46428_45.96429-mv
+assign: Layer__puzzle/switch_once_0.png__24.53572_18.96428-mv
+assign: Nightingale
+assign: Layer__puzzle/switch_once_4.png__43_13.28571-mv
+assign: Layer_Supply_paprika
+assign: bench__Layer__obj/bench.png__15.41071_38.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_lava_coming  
+assign: obj__puzzle/barrier_lit.png__16.5_34.39286
+assign: obj__puzzle/barrier_lit.png__27.5_20.39286
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_lava_coming
+map_open:: forest_acid_lake
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: Breakable-hit
+assign: ExitT_puzzt
+assign: ExitR_dokudoku
+assign: ExitT_acid_lake
+assign: CM-Layer_Carrier_0
+CR:1
+assign: ExitL_waterpuzzle
+assign: switch__puzzle/switch_once_3.png__29.96428_39.98214-mv
+assign: SwitchContainer_0_0
+assign: Layer__puzzle/switch_2.png__29_13.30357-mv
+assign: Layer__puzzle/switch_once_0.png__53.53571_18.96428-mv
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_acid_lake  
+skill_difficulty_restrict is True
+enemy total:4
+Opened summoner reader: forest_acid_lake
+assign: UNI_0_0
+assign: UNI_0_1
+assign: UNI_0_2
+assign: UNI_0_3
+EF<TE-M2m-<Mover>-UNI_0_3 @0.0,0.0> : 量が多い
+EF<TE-M2m-<Mover>-UNI_0_3 @0.0,0.0> : 量が多い
+EF<TE-M2m-<Mover>-UNI_0_3 @0.0,0.0> : 量が多い
+EF<TE-M2m-<Mover>-UNI_0_3 @0.0,0.0> : 量が多い
+EF<TE-M2m-<Mover>-UNI_0_3 @0.0,0.0> : 量が多い
+EF<TE-M2m-<Mover>-UNI_0_3 @0.0,0.0> : 量が多い
+EF<TE-M2m-<Mover>-UNI_0_3 @0.0,0.0> : 量が多い
+EF<TE-M2m-<Mover>-UNI_0_3 @0.0,0.0> : 量が多い
+EF<TE-M2m-<Mover>-UNI_0_3 @0.0,0.0> : 量が多い
+EF<TE-M2m-<Mover>-UNI_0_3 @0.0,0.0> : 量が多い
+EF<TE-M2m-<Mover>-UNI_0_3 @0.0,0.0> : 量が多い
+Summoner forest_acid_lake is defeated
+EV::start - __M2D_DEFEAT_SUMMONER line:0
+EV::end - __M2D_DEFEAT_SUMMONER
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_acid_lake
+map_open:: forest_lava_coming
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: magic_killer_pmng_PuzzBarrier_1
+assign: ExitR_paprika
+assign: ExitL_dokudoku
+assign: CM-Layer_Carrier_1
+CR:1
+assign: ExitR_lava_secret
+assign: obj__puzzle/switch_once_0.png__22.46428_45.96429-mv
+assign: Layer__puzzle/switch_once_0.png__24.53572_18.96428-mv
+assign: Nightingale
+assign: Layer__puzzle/switch_once_4.png__43_13.28571-mv
+assign: Layer_Supply_paprika
+assign: bench__Layer__obj/bench.png__15.41071_38.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_lava_coming  
+assign: obj__puzzle/barrier_lit.png__16.5_34.39286
+assign: obj__puzzle/barrier_lit.png__27.5_20.39286
+>>AutoSave
+>>AutoSave
+// ======================
+Failed setting triangles. Some indices are referencing out of bounds vertices. IndexCount: 6, VertexCount: 4
+
+Error Closure: runPre Other => Valot((UI-MF-5))- UI binding
+// ======================
+>>AutoSave
+>>AutoSave
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_lava_coming
+map_open:: forest_lava_secret
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitT_lava_secret_t
+assign: ExitL_lava_secret
+assign: Layer_Supply_water
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_lava_secret  
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_lava_secret
+map_open:: forest_mush_narrow
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitB_lava_secret_t
+assign: ExitB_thunder_dance
+assign: ExitT_matoate_b
+assign: ExitL_paprika
+assign: bench__Layer__obj/bench.png__12.41071_16.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_mush_narrow  
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_mush_narrow
+map_open:: forest_lava_secret
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitT_lava_secret_t
+assign: ExitL_lava_secret
+assign: Layer_Supply_water
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_lava_secret  
+EV::start - %M2EVENTCOMMAND__@forest_lava_secret~Layer_Supply_water__CHECK line:0
+EV::end - %M2EVENTCOMMAND__@forest_lava_secret~Layer_Supply_water__CHECK
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_lava_secret
+map_open:: forest_mush_narrow
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitB_lava_secret_t
+assign: ExitB_thunder_dance
+assign: ExitT_matoate_b
+assign: ExitL_paprika
+assign: bench__Layer__obj/bench.png__12.41071_16.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_mush_narrow  
+>>AutoSave
+skill_difficulty_restrict is True
+enemy total:7
+Opened summoner reader: forest_mush_narrowroad
+assign: PUPPY_0_0
+assign: PUPPY_0_1
+assign: PUPPY_0_2
+assign: NoelCane
+EF<TE-M2m-<Mover>-PUPPY_0_0 @0.0,0.0> : 量が多い
+EF<TE-M2m-<Mover>-PUPPY_0_0 @0.0,0.0> : 量が多い
+assign: PUPPY_0_3

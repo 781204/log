@@ -1,0 +1,230 @@
+error detected: 000001
+Version: 0.21j @Win
+Microsoft Windows NT 10.0.19042.0
+// ======================
+SCENE TITLE AWAKEN 
+Load Event Lang: zh-cn
+オプションの読み込みを開始
+オプションの読み込みを開始
+Noel ポーズ数: 252 / 服ビリポーズ数:129/ イメージ数: 0
+title scene disposed
+SCENE GAME AWAKEN
+EV::start - __INITG line:0
+EV::end - __INITG
+<<Read SVD SVD From: 0
+Load Event Lang: zh-cn
+EV::start - __INITG line:0
+EV::end - __INITG
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: house_barn
+assign: Noel
+assign: ExitB_cave2well
+assign: ExitL_housecliff
+assign: ExitR_barn
+assign: bench__Layer_2__obj/bench_wide.png__38.375_22.82143
+M2EventContainer::reload - コマンドの再読み込みを実行:house_barn  
+BGM cornehl はすでに CurPl 側に読み込まれています
+map_close:: house_barn
+map_open:: house_cliff_cave
+BGM cornehl はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: Breakable_cliffcave_under-hit
+assign: CM-lift_Carrier_x1
+CR:1
+assign: ExitR_cave2forest
+assign: ExitB_puzzcave
+assign: ExitT_cave2well
+assign: ExitL_cliffcave
+M2EventContainer::reload - コマンドの再読み込みを実行:house_cliff_cave  
+BGM cornehl はすでに CurPl 側に読み込まれています
+map_close:: house_cliff_cave
+map_open:: house_puzzle_cliffcave
+BGM cornehl はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: CM-lift_Carrier_x1
+CR:0
+assign: CM-lift_Carrier_x2
+CR:1
+assign: CM-lift_Carrier_x188
+CR:1
+assign: CM-lift_Carrier_x282_2
+CR:1
+assign: magic_killer_puzzle_PuzzBarrier_cliffcave
+assign: Treasure_EH_double_evade
+assign: ExitT_puzzcave
+assign: puzzle__puzzle/warp_to_check.png__71.48214_15.66071
+M2EventContainer::reload - コマンドの再読み込みを実行:house_puzzle_cliffcave  
+assign: NoelCane
+EV::start - ___Other/Skill_need_shield line:0
+cachMaterial -- DEBUG |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+DEBUG:: |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+EV::end - ___Other/Skill_need_shield
+assign: NoelCane
+EV::start - ___Other/Skill_need_shield line:0
+cachMaterial -- DEBUG |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+DEBUG:: |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+EV::end - ___Other/Skill_need_shield
+assign: NoelCane
+assign: NoelHat
+assign: NoelCane
+EV::start - ___Other/Skill_need_shield line:0
+cachMaterial -- DEBUG |WORM|WATER|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+DEBUG:: |WORM|WATER|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+// ======================
+Failed setting triangles. Some indices are referencing out of bounds vertices. IndexCount: 6, VertexCount: 4
+
+Error Closure: runPost 4 => Valot((UI-MF-5))- UI binding
+// ======================
+EV::end - ___Other/Skill_need_shield
+assign: NoelCane
+EV::start - ___Other/Skill_need_shield line:0
+cachMaterial -- DEBUG |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+DEBUG:: |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+EV::end - ___Other/Skill_need_shield
+assign: NoelCane
+EV::start - ___Other/Skill_need_shield line:0
+cachMaterial -- DEBUG |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+DEBUG:: |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+EV::end - ___Other/Skill_need_shield
+assign: NoelCane
+EV::start - ___Other/Skill_need_shield line:0
+cachMaterial -- DEBUG |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+DEBUG:: |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+EV::end - ___Other/Skill_need_shield
+assign: NoelCane
+EV::start - ___Other/Skill_need_shield line:0
+cachMaterial -- DEBUG |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+DEBUG:: |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+EV::end - ___Other/Skill_need_shield
+assign: NoelCane
+EV::start - ___Other/Skill_need_shield line:0
+cachMaterial -- DEBUG |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+DEBUG:: |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+EV::end - ___Other/Skill_need_shield
+map_close:: house_puzzle_cliffcave
+<<Read SVD SVD From: 0
+Load Event Lang: zh-cn
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: house_barn
+assign: Noel
+assign: ExitB_cave2well
+assign: ExitL_housecliff
+assign: ExitR_barn
+assign: bench__Layer_2__obj/bench_wide.png__38.375_22.82143
+M2EventContainer::reload - コマンドの再読み込みを実行:house_barn  
+BGM cornehl はすでに CurPl 側に読み込まれています
+map_close:: house_barn
+map_open:: house_cliff_cave
+BGM cornehl はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: Breakable_cliffcave_under-hit
+assign: CM-lift_Carrier_x1
+CR:1
+assign: ExitR_cave2forest
+assign: ExitB_puzzcave
+assign: ExitT_cave2well
+assign: ExitL_cliffcave
+M2EventContainer::reload - コマンドの再読み込みを実行:house_cliff_cave  
+BGM cornehl はすでに CurPl 側に読み込まれています
+map_close:: house_cliff_cave
+map_open:: house_puzzle_cliffcave
+BGM cornehl はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: CM-lift_Carrier_x1
+CR:0
+assign: CM-lift_Carrier_x2
+CR:1
+assign: CM-lift_Carrier_x188
+CR:1
+assign: CM-lift_Carrier_x282_2
+CR:1
+assign: magic_killer_puzzle_PuzzBarrier_cliffcave
+assign: Treasure_EH_double_evade
+assign: ExitT_puzzcave
+assign: puzzle__puzzle/warp_to_check.png__71.48214_15.66071
+M2EventContainer::reload - コマンドの再読み込みを実行:house_puzzle_cliffcave  
+assign: NoelCane
+assign: NoelHat
+EV::start - ___Other/Skill_need_shield line:0
+cachMaterial -- DEBUG |WATER|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+DEBUG:: |WATER|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+EV::end - ___Other/Skill_need_shield
+assign: NoelCane
+assign: NoelHat
+assign: NoelCane
+EV::start - ___Other/Skill_need_shield line:0
+cachMaterial -- DEBUG |WORM|WATER|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+DEBUG:: |WORM|WATER|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+EV::end - ___Other/Skill_need_shield
+assign: NoelCane
+EV::start - ___Other/Skill_need_shield line:0
+cachMaterial -- DEBUG |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+DEBUG:: |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+EV::end - ___Other/Skill_need_shield
+assign: NoelCane
+EV::start - ___Other/Skill_need_shield line:0
+cachMaterial -- DEBUG |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+DEBUG:: |WORM|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+EV::end - ___Other/Skill_need_shield
+assign: NoelCane
+assign: NoelHat
+EV::start - ___Other/Skill_need_shield line:0
+cachMaterial -- DEBUG |WATER|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+DEBUG:: |WATER|
+ - string: DEBUG $1, line: 3
+ event: ___Other/Skill_need_shield
+EV::end - ___Other/Skill_need_shield

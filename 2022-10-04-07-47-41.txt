@@ -1,0 +1,404 @@
+error detected: 000000
+Version: 0.21j @Win
+Microsoft Windows NT 10.0.19042.0
+// ======================
+SCENE TITLE AWAKEN 
+Load Event Lang: zh-cn
+オプションの読み込みを開始
+オプションの読み込みを開始
+Noel ポーズ数: 252 / 服ビリポーズ数:129/ イメージ数: 0
+title scene disposed
+SCENE GAME AWAKEN
+EV::start - __INITG line:0
+EV::end - __INITG
+<<Read SVD SVD From: 0
+Load Event Lang: zh-cn
+EV::start - __INITG line:0
+EV::end - __INITG
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_tikuwar
+assign: Noel
+assign: ExitL_coroseum
+assign: ExitT_tikuwar2treecrack
+assign: ExitR_tikuwarc
+assign: ExitR_puzzle_ctl
+assign: ExitL_tikuwar
+assign: Layer_Supply_water
+assign: bench__Layer__obj/bench.png__19.58928_19.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_tikuwar  
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_tikuwar
+map_open:: forest_athletic_tikuwa_thorn
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitR_tikuwarth
+assign: ExitL_tikuwarc
+assign: thunder__puzzle/switch.png__11.01786_20.69643-mv
+assign: thunder__puzzle/switch_once_1.png__39.42857_25.125-mv
+assign: wood_Supply_reel
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_athletic_tikuwa_thorn  
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_athletic_tikuwa_thorn
+map_open:: forest_mushpot
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitL_tikuwarth
+assign: ExitR_mush_01
+assign: ExitL_crackmush
+assign: ExitR_mushright
+assign: ExitB_darkpot
+assign: Layer_Supply_mush
+assign: _LP_battle_2_Ev_board
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_mushpot  
+skill_difficulty_restrict is True
+enemy total:4
+Opened summoner reader: forest_mushpot2
+assign: SLIME_0_0
+assign: SLIME_0_1
+assign: MUSH_0_2
+assign: NoelCane
+assign: NoelCane
+assign: MUSH_0_3
+Summoner forest_mushpot2 is defeated
+EV::start - __M2D_DEFEAT_SUMMONER line:0
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - %M2EVENTCOMMAND__@forest_mushpot~Layer_Supply_mush__CHECK line:0
+EV::end - %M2EVENTCOMMAND__@forest_mushpot~Layer_Supply_mush__CHECK
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_mushpot
+map_open:: forest_treecrack
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitR_crackmush
+assign: ExitL_crack_c
+assign: ExitB_tikuwar2treecrack
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_treecrack  
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_treecrack
+map_open:: forest_mushpot
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitL_tikuwarth
+assign: ExitR_mush_01
+assign: ExitL_crackmush
+assign: ExitR_mushright
+assign: ExitB_darkpot
+assign: Layer_Supply_mush
+assign: _LP_battle_2_Ev_board
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_mushpot  
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_mushpot
+map_open:: forest_01
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitL_mush_01
+assign: ExitR_slash01
+assign: ExitB_secr
+assign: Nightingale
+assign: bench__obj__obj/bench.png__33.41071_13.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_01  
+skill_difficulty_restrict is True
+enemy total:3
+Opened summoner reader: forest_tutorial
+assign: SLIME_0_0
+assign: SLIME_0_1
+assign: SLIME_0_2
+Summoner forest_tutorial is defeated
+EV::start - __M2D_DEFEAT_SUMMONER line:0
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - %M2EVENTCOMMAND__@forest_01~Nightingale__TALK line:0
+EV::end - %M2EVENTCOMMAND__@forest_01~Nightingale__TALK
+EV::start - ___Nightingale/_portal line:0
+EV::end - ___Nightingale/_portal
+>>AutoSave
+EV::start - %M2EVENTCOMMAND__@forest_01~Nightingale__TALK line:0
+EV::end - %M2EVENTCOMMAND__@forest_01~Nightingale__TALK
+EV::start - ___Nightingale/_portal line:0
+&&cmd_sell
+Item Command for:<NelItem> mtr_mush (蘑菇) / New:2 Total:3 (0,0,0,0,3)
+&&cmd_cart
+Item Command for:<NelItem> mtr_mush (蘑菇) / New:1 Total:3 (0,0,0,0,3)
+&&cmd_checkout
+EV::end - ___Nightingale/_portal
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_01
+map_open:: forest_secret_lake
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitR_secr_in
+assign: ExitT_secr
+assign: Object_Supply_water
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_secret_lake  
+EV::start - %M2EVENTCOMMAND__@forest_secret_lake~Object_Supply_water__CHECK line:0
+EV::end - %M2EVENTCOMMAND__@forest_secret_lake~Object_Supply_water__CHECK
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_secret_lake
+map_open:: forest_secr_in
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitL_secr_in
+assign: ExitR_hiroba
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_secr_in  
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_secr_in
+全てのマップを再構築
+map_open:: forest_hiroba
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitB_hirobau_l
+assign: ExitR_cross_lt
+assign: ExitL_hiroba
+assign: ExitL_hirobat
+assign: ExitB_hirobau
+assign: mepha
+assign: obj_over_pvv1_Supply_amethyst_G0
+assign: obj_Supply_apple
+assign: obj_Supply_cherry
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_hiroba  
+EV::start - %M2EVENTCOMMAND__@forest_hiroba~obj_Supply_apple__CHECK line:0
+EV::end - %M2EVENTCOMMAND__@forest_hiroba~obj_Supply_apple__CHECK
+EV::start - %M2EVENTCOMMAND__@forest_hiroba~obj_Supply_cherry__CHECK line:0
+EV::end - %M2EVENTCOMMAND__@forest_hiroba~obj_Supply_cherry__CHECK
+EV::start - %M2EVENTCOMMAND__@forest_hiroba~obj_over_pvv1_Supply_amethyst_G0__CHECK line:0
+EV::end - %M2EVENTCOMMAND__@forest_hiroba~obj_over_pvv1_Supply_amethyst_G0__CHECK
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_hiroba
+map_open:: forest_hirobau
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitL_hirobau_bl
+assign: ExitR_cliff_portal
+assign: ExitL_cliff_glacier
+assign: ExitT_hirobau_l
+assign: ExitT_hirobau
+assign: bench__Layer__obj/bench.png__17.41072_34.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_hirobau  
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_hirobau
+map_open:: forest_cliff_portal
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitR_shelter
+assign: ExitL_cliff_portal
+assign: s12_morus
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_cliff_portal  
+skill_difficulty_restrict is True
+enemy total:3
+Opened summoner reader: forest_cliff_portal
+assign: MAGE_0_0
+assign: PUPPY_0_1
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+EF<TE-M2m-<Mover>-MAGE_0_0 @0.0,0.0> : 量が多い
+assign: MAGE_0_2
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+PxlCharaAnimator: ポーズが見つかりませんstun
+PxlCharaAnimator: ポーズが見つかりませんstun
+Summoner forest_cliff_portal is defeated
+EV::start - __M2D_DEFEAT_SUMMONER line:0
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - %M2EVENTCOMMAND__@forest_cliff_portal~s12_morus__CHECK line:0
+EV::end - %M2EVENTCOMMAND__@forest_cliff_portal~s12_morus__CHECK
+EV::start - s12_morus line:0
+EV::end - s12_morus
+EV::start - %M2EVENTCOMMAND__@forest_cliff_portal~s12_morus__CHECK line:0
+EV::end - %M2EVENTCOMMAND__@forest_cliff_portal~s12_morus__CHECK
+EV::start - s12_morus line:0
+EV::end - s12_morus
+EV::start - %M2EVENTCOMMAND__@forest_cliff_portal~s12_morus__CHECK line:0
+EV::end - %M2EVENTCOMMAND__@forest_cliff_portal~s12_morus__CHECK
+EV::start - s12_morus line:0
+EV::end - s12_morus
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_cliff_portal
+map_open:: forest_wood_hall
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitL_shelter
+assign: ExitT_cross
+assign: ExitB_acid_lake
+assign: Layer_Supply_apple
+assign: bench__Breakable__obj/bench.png__32.58929_32.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_wood_hall  
+EV::start - %M2EVENTCOMMAND__@forest_wood_hall~Layer_Supply_apple__CHECK line:0
+EV::end - %M2EVENTCOMMAND__@forest_wood_hall~Layer_Supply_apple__CHECK
+>>AutoSave
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_wood_hall
+map_open:: forest_acid_lake
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: Breakable-hit
+assign: ExitT_puzzt
+assign: ExitR_dokudoku
+assign: ExitT_acid_lake
+assign: CM-Layer_Carrier_0
+CR:1
+assign: ExitL_waterpuzzle
+assign: switch__puzzle/switch_once_3.png__29.96428_39.98214-mv
+assign: SwitchContainer_0_0
+assign: Layer__puzzle/switch_2.png__29_13.30357-mv
+assign: Layer__puzzle/switch_once_0.png__53.53571_18.96428-mv
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_acid_lake  
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_acid_lake
+map_open:: forest_wood_hall
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitL_shelter
+assign: ExitT_cross
+assign: ExitB_acid_lake
+assign: Layer_Supply_apple
+assign: bench__Breakable__obj/bench.png__32.58929_32.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_wood_hall  
+>>AutoSave
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_wood_hall
+map_open:: forest_wood_cross
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: CM-Carrier_Carrier_x
+CR:4
+assign: CM-Carrier_Carrier_x_2
+CR:4
+assign: CM-Carrier_Carrier_x_5
+CR:4
+assign: CM-Carrier_Carrier_x_3
+CR:4
+assign: CM-Carrier_Carrier_x_4
+CR:4
+assign: ExitR_dobadoba_l
+assign: ExitR_station
+assign: ExitL_cross_lt
+assign: ExitB_cross
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_wood_cross  
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_wood_cross
+map_open:: forest_acid_dobadoba
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: Breakable_fall-hit
+assign: CM-Carrier_Carrier
+CR:1
+assign: ExitR_clocktower
+assign: ExitB_tikuwafall
+assign: Breakable_tikuwafall-hit
+assign: ExitL_dobadoba_l
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_acid_dobadoba  
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_acid_dobadoba
+map_open:: forest_wood_cross
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: CM-Carrier_Carrier_x
+CR:4
+assign: CM-Carrier_Carrier_x_2
+CR:4
+assign: CM-Carrier_Carrier_x_5
+CR:4
+assign: CM-Carrier_Carrier_x_3
+CR:4
+assign: CM-Carrier_Carrier_x_4
+CR:4
+assign: ExitR_dobadoba_l
+assign: ExitR_station
+assign: ExitL_cross_lt
+assign: ExitB_cross
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_wood_cross  
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_wood_cross
+map_open:: forest_acid_dobadoba
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: Breakable_fall-hit
+assign: CM-Carrier_Carrier
+CR:1
+assign: ExitR_clocktower
+assign: ExitB_tikuwafall
+assign: Breakable_tikuwafall-hit
+assign: ExitL_dobadoba_l
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_acid_dobadoba  
+assign: NoelCane
+BGM Normal はすでに CurPl 側に読み込まれています
+map_close:: forest_acid_dobadoba
+map_open:: forest_clocktower
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitR_presser
+assign: ExitT_ruin_road_b
+assign: ExitL_clocktower
+assign: bench__Layer__obj/bench.png__15.41071_20.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_clocktower  
+>>AutoSave
+skill_difficulty_restrict is True
+enemy total:3
+Opened summoner reader: forest_clocktower
+assign: GOLEM_0_0
+assign: GOLEM_0_1
+assign: SPONGE_0_2
+assign: NoelCane
+assign: NoelHat
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+EF<TE-M2m-<Mover>-GOLEM_0_0 @0.0,0.0> : 量が多い
+assign: NoelCane
+assign: NoelCane
+assign: NoelCaneB
+EV::start - __M2D_GAMEOVER line:0
+Summoner forest_clocktower is closed
+map_close:: forest_clocktower
+全てのマップを再構築
+map_open:: forest_clocktower
+BGM Normal はすでに CurPl 側に読み込まれています
+assign: Noel
+assign: ExitR_presser
+assign: ExitT_ruin_road_b
+assign: ExitL_clocktower
+assign: NoelCane
+assign: bench__Layer__obj/bench.png__15.41071_20.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_clocktower  
+危険度を 0 に設定
+EV::end - __M2D_GAMEOVER
+map_close:: forest_clocktower
+<<Read SVD SVD From: 0
+Load Event Lang: zh-cn
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_clocktower
+assign: Noel
+assign: ExitR_presser
+assign: ExitT_ruin_road_b
+assign: ExitL_clocktower
+assign: NoelCane
+assign: bench__Layer__obj/bench.png__15.41071_20.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_clocktower  
+skill_difficulty_restrict is True
+enemy total:3
+Opened summoner reader: forest_clocktower
+assign: GOLEM_0_0
+assign: SPONGE_0_1
+assign: GOLEM_0_2
+assign: NoelCane
+EF<TE-M2m-<Mover>-GOLEM_0_0 @0.0,0.0> : 量が多い
+EF<TE-M2m-<Mover>-GOLEM_0_0 @0.0,0.0> : 量が多い
+EF<TE-M2m-<Mover>-GOLEM_0_0 @0.0,0.0> : 量が多い
+PxlCharaAnimator: ポーズが見つかりませんstun
+assign: NoelHat
+assign: NoelHat
+assign: NoelHat
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+EV::start - __M2D_GAMEOVER line:0
+Summoner forest_clocktower is closed
+map_close:: forest_clocktower
+全てのマップを再構築
